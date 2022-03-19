@@ -1,0 +1,28 @@
+/* .home-page {
+  position: fixed;
+} */
+
+.welcome-box {
+  position: relative;
+  left: 10%;
+  background-color: cadetblue;
+  border: 2px black solid;
+  width: 80%;
+  min-height: fit-content;
+}
+.welcome-text {
+  color: darkorchid;
+  margin: 10px 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.accord-head {
+  background-color: teal;
+  color: red;
+}
