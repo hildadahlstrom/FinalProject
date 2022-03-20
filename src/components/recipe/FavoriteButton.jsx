@@ -3,11 +3,9 @@
  * It displays the Add to favorites by default
  * After a recipe is added to favorites, it displays the remove from favorites button
  */
-
 import React from 'react';
 import { IoIosHeartEmpty, IoIosHeart } from 'react-icons/io';
 import Button from 'react-bootstrap/esm/Button';
-
 const FavoriteButton = ({ recipe, handleChange }) => {
   const handleFavorite = () => {
     recipe.isFavorited = true;

@@ -1,7 +1,3 @@
-/* .home-page {
-  position: fixed;
-} */
-
 .welcome-box {
   position: relative;
   left: 10%;
@@ -20,9 +16,4 @@
 
 img {
   width: 100%;
-}
-
-.accord-head {
-  background-color: teal;
-  color: red;
 }
